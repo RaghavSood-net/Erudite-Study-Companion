@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Tuff Jarvis",
+  "version": "1.0.0",
+  "description": "A productivity companion featuring a focus timer, statistics dashboard, heatmap, quotes, themes, and AI assistance.",
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Tuff Jarvis"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "https://quoteslate.vercel.app/*"
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "Morning.png",
+        "night.jpg",
+        "evening theme.jpg"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

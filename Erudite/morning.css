@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    position: relative;
+    width: 550px;
+    height: 600px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.Background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.Timer {
+     position: absolute;
+    top: 35%;
+    left: 45%;
+    color: #42555C;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    
+    font-family: "Elms Sans", sans-serif;
+
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap:5%
+} 
+.settimer{
+    position: absolute;
+     font-family: "Elms Sans", sans-serif;
+     top: 55%;
+    left: 50%;
+    font-size: larger;
+   background: rgba(255, 255, 255, 0.3);
+   color: #42555C;
+   
+   border-radius: 9999px; 
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right:2% ;
+    font-weight: 475;
+    cursor:pointer;
+}
+.Start{
+    position: absolute;
+     font-family: "Elms Sans", sans-serif;
+     top: 62%;
+    left: 50%;
+    font-size: larger;
+   background: rgba(255, 255, 255, 0.3);
+   color: #42555C;
+   
+   border-radius: 9999px; 
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right:2% ;
+    font-weight: 475;
+    cursor:pointer;
+}
+.Buttons{
+ position: absolute;   
+ display: flex;
+ gap:7%;
+ justify-content: space-between;
+ top:4%;
+ left:8%;
+}
+.Evening 
+{
+background: none;
+color: #42555C;
+padding: 2%;
+border:none;
+cursor:auto;
+font-family: "Elms Sans", sans-serif;
+ 
+   color: #42555C;
+   
+
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+ 
+    font-weight: 475;
+}
+.Morn
+{
+background: none;
+color: #42555C;
+border:none;
+cursor:auto;
+font-family: "Elms Sans", sans-serif;
+
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    font-weight: 475;
+}
+.Night{
+background: none;
+color: #42555C;
+padding: 2%;
+border:none;
+font-family: "Elms Sans", sans-serif;
+ 
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+   
+    font-weight: 475;
+
+
+}
+.activee{
+color:#fbe9ab;
+background:#42555C ;
+border-radius:9999px;
+box-shadow:0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3); 
+}
+.activem{
+
+color:#fbe9ab;
+background:#42555C;
+border-radius:9999px;
+box-shadow:0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        text-shadow:none
+       
+
+}
+.activen{
+
+color:#fbe9ab;
+background:#42555C ;
+border-radius:9999px;
+box-shadow:0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3); 
+
+transform: none;
+}
+
+.material-symbols-outlined {
+position: absolute;
+top:8%;
+right:0%;
+color: #42555C;
+text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+#chat{
+position: absolute;
+top:8%;
+
+}
+  
+#stat{
+  position: absolute;   
+  top:16%
+}
+
+#cher{
+ position: absolute;
+ top: 25%;
+}
+
+.Overlay{
+    position: absolute;
+    height:100%;
+    width:100% ;
+    z-index: 9997;
+
+    background: rgba(0, 0, 0, 0.35); 
+    backdrop-filter: blur(8px);      
+    -webkit-backdrop-filter: blur(8px);
+
+      
+}
+.Quote{
+position: absolute;
+font-family: "Elms Sans", sans-serif;
+color: #222c2f;
+z-index:9998;
+left:10%;
+top:39%;
+text-align: center;
+ width: 80%;
+max-width: 90%;
+text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        font-weight: 475;
+font-size:100% ;
+}
+
+.Exit{
+font-family: "Elms Sans", sans-serif;
+color: #222c2f;
+position: absolute;
+z-index:9998;
+right: 5%;
+top:5%
+
+}
+.chatform{
+
+background: none;
+position: absolute;
+font-family: "Elms Sans", sans-serif;
+color: #42555C;
+bottom:1%;
+left:2%;
+z-index: 9998;
+
+}
+
+#data{
+border: none;
+background: none;
+font-family: "Elms Sans", sans-serif;
+color: #42555C;
+font-weight: 475;
+font-size: medium;
+outline:none ;
+}
+.Submit1{
+
+border: none;
+background: none;
+font-family: "Elms Sans", sans-serif;
+color: #42555C;
+font-weight: 475;
+font-size: medium;
+
+
+
+}
+
+
+
+
+
+
+
+ .msgctr {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    overflow-y: scroll;
+    z-index:9998 ;
+    height: 75%;
+    margin-top: 10%;
+
+}
+
+.selfmessage {
+       display: flex;
+    align-self: flex-end;
+    width: fit-content;
+    max-width: 75%;
+    padding: 1.5% 2%;
+    border-radius: 16px;
+    background:linear-gradient(to top right,#F19066,#672A4B);
+    color: #42555C;
+    font-family: "Elms Sans", sans-serif;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        font-weight: 475;
+
+}
+
+.reply {
+       display: flex; 
+    align-self: flex-start;
+    width: fit-content;
+    max-width: 75%;
+    padding: 1.5% 2%;
+    border-radius: 16px;
+    background:linear-gradient(to top right,#872A42, #42204C);
+    color: #42555C;
+    font-family: "Elms Sans", sans-serif;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        font-weight: 475;
+
+}
+.inputtime{
+
+position: absolute;
+display: flex;
+
+flex-direction: row;
+top:50%;
+background: none;
+color: #42555C;
+    font-family: "Elms Sans", sans-serif;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        font-weight: 475;
+        gap:5%;
+        font-size: 4rem;
+justify-content: center;
+top: 35%;
+         
+}
+
+.Timerform .inputtime input{
+
+    
+width: 15%;
+background: transparent;
+border: none;
+outline: none;
+box-shadow: none;
+color: #42555C;
+    font-family: "Elms Sans", sans-serif;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+        font-weight: 475;
+        font-size: 4rem;
+ 
+}
+.Timerform .inputtime .submission{
+
+ position: absolute;
+     font-family: "Elms Sans", sans-serif;
+    font-size: larger;
+   background: rgba(255, 255, 255, 0.3);
+   color: #42555C;
+   
+   border-radius: 9999px; 
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right:2% ;
+    font-weight: 475;
+    cursor:pointer;
+    font-size: 1.25rem;
+    top: 120%;
+    left: 80% ;
+
+}
+
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.StatsPanel{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 88%;
+    z-index: 9998;
+    text-align: center;
+    font-family: "Elms Sans", sans-serif;
+    color: #222c2f;
+}
+.StatsTitle{
+    font-size: 1.4rem;
+    font-weight: 475;
+    margin-bottom: 5%;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+}
+.StatsRow{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-bottom: 6%;
+}
+.StatBox{
+    background: rgba(255,255,255,0.35);
+    border-radius: 16px;
+    padding: 4% 8%;
+    min-width: 30%;
+}
+.StatValue{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+}
+.StatLabel{
+    font-size: 0.75rem;
+    opacity: 0.85;
+    margin-top: 3%;
+    font-weight: 475;
+}
+#heatmapChart{
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+}
+.Stopbtn{
+
+position: absolute;
+     font-family: "Elms Sans", sans-serif;
+    font-size: larger;
+   background: rgba(255, 255, 255, 0.3);
+   color: #42555C;
+   
+   border-radius: 9999px; 
+   border:none;
+   text-shadow:
+        0 0 8px rgba(255,244,214,0.6),
+        0 0 16px rgba(255,244,214,0.3);
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right:2% ;
+    font-weight: 475;
+    cursor:pointer;
+    font-size: 1.5rem;
+    top: 130%;
+    left: 65% ;
+
+
+
+}
